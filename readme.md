@@ -66,14 +66,19 @@ To set up the basic directory structure, run:
 
 We're going to use Node packages to automate our build process and serve our site locally. If you don't already have node, you'll need to install it.
 
+Initiate your project by running:
 `npm init`
 
 ### Install Node Modules:
+
+We'll use the following Node modules:
 
 -   Serve: A simple Node Server based on Zeit/Now
 -   Less Watch Compiler: Automatically compile less into CSS whenever you make changes
 -   Babel + Presets: Transpile ES6 JavaScript to ES5 and Minify It
 -   Concurrently: Allows the Above to Run Simultaneously
+
+Install them by running:
 
 `npm install --save-dev serve`
 `npm install --save-dev less-watch-compiler`
