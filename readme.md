@@ -22,7 +22,7 @@ If you just want to get started, mirror the repo as follows:
 4. Mirror-push to the your new repo (replace url with your repo's): `git push --mirror https://github.com/user/new-repo.git`
 5. Remove the old repo: `cd ..` then `rm -rf mostly-static-boilerplate.git/`
 
-Alternatively, you can download the repo and copy it manually. If you download the repo, you may need to manually create the `.babelrc` and `.gitignore` files.
+Alternatively, you can download the repo and copy it manually. If you download the repo, you may need to manually create the `.babelrc` and `.gitignore` files (see "Setup" below).
 
 ## Getting Started
 
