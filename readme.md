@@ -24,9 +24,9 @@ If you just want to get started, mirror the repo as follows:
 
 Alternatively, you can download the repo and copy it manually. If you download the repo, you may need to manually create the `.babelrc` and `.gitignore` files (see "Setup" below).
 
-## Basic Usage
+Finally, make sure Node and npm are installed on your system, then run `npm install` in the project folder.
 
-Make sure Node and npm are installed on your system, then run `npm install`.
+## Basic Usage
 
 You can run a simple local server and automatically compile `less` by running: `npm start`.
 
