@@ -18,7 +18,7 @@ If you just want to get started, clone or download the repo.
 
 You can run a simple local server and automatically compile `less` by running: `npm start`.
 
-To build your site for production, run `npm run build`
+To build your site for production, run `npm run build`, which outputs files to the `dist` folder.
 
 ## Setup
 
@@ -26,11 +26,15 @@ If you want to know how to set this up yourself, here's the setup:
 
 ### Set Up the Directory
 
+The project has the following directory structure:
+
 ```
 project
 │   .babelrc
+│   .gitattributes
 │   .gitignore
-│   .package.json
+│   package.json
+│   package-lock.json
 │   .gitignore
 │   readme.md
 │
@@ -52,6 +56,8 @@ project
 │
 └───node_modules
 ```
+
+The `src` folder contains the code you'll write in html, less, and JavaScript. The `dist` folder is for built/clean/minified code that's ready for production.
 
 `mkdir src src/assets src/assets/css src/assets/img src/assets/js dist`
 
