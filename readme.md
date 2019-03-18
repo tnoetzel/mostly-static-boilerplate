@@ -12,7 +12,7 @@ If you create a lot of mostly-static websites that based on `less css` and some 
 
 This repo is my quick and dirty solution. Comments and suggestions welcome.
 
-## Mirror the Repo
+## Getting Started
 
 If you just want to get started, mirror the repo as follows:
 
@@ -24,7 +24,7 @@ If you just want to get started, mirror the repo as follows:
 
 Alternatively, you can download the repo and copy it manually. If you download the repo, you may need to manually create the `.babelrc` and `.gitignore` files (see "Setup" below).
 
-## Getting Started
+## Basic Usage
 
 Make sure Node and npm are installed on your system, then run `npm install`.
 
