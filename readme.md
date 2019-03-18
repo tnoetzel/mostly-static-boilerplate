@@ -59,6 +59,7 @@ project
 
 The `src` folder contains the code you'll write in html, less, and JavaScript. The `dist` folder is for built/clean/minified code that's ready for production.
 
+To set up the basic directory structure, run:
 `mkdir src src/assets src/assets/css src/assets/img src/assets/js dist`
 
 ### Node
