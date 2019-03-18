@@ -12,9 +12,21 @@ If you create a lot of mostly-static websites that based on `less css` and some 
 
 This repo is my quick and dirty solution. Comments and suggestions welcome.
 
+## Mirror the Rep
+
+If you just want to get started, mirror the repo as follows:
+
+1. Create a new repository on GitHub
+2. Clone this repo: `git clone --bare https://github.com/tnoetzel/mostly-static-boilerplate.git`
+3. cd into the clone: `cd mostly-static-boilerplate.git/`
+4. Mirror-push to the your new repo (replace url with your repo's): `git push --mirror https://github.com/user/new-repo.git`
+5. Remove the old repo: `cd ..` then `rm -rf mostly-static-boilerplate.git/`
+
+Alternatively, you can download the repo and copy it manually. If you download the repo, you may need to manually create the `.babelrc` and `.gitignore` files.
+
 ## Getting Started
 
-If you just want to get started, clone or download the repo.
+Make sure Node and npm are installed on your system, then run `npm install`.
 
 You can run a simple local server and automatically compile `less` by running: `npm start`.
 
