@@ -1,0 +1,5 @@
+{
+    "prettier.printWidth": 140,
+    "html.format.wrapLineLength": 140,
+    "git.ignoreLimitWarning": true
+}

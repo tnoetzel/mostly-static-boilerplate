@@ -1,0 +1,30 @@
+{
+    "name": "mostly-static-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "concurrently \"npx serve src\" \"npm run watch-css\"",
+        "watch-css": "npx less-watch-compiler src/assets/css src/assets/css style.less",
+        "clean": "rm -rf dist && mkdir -p dist/assets/css dist/assets/js dist/assets/img || true",
+        "build": "npm run clean && npm run copy-html && npm run copy-css && npm run copy-img && npm run build-js",
+        "copy-html": "find src -name \\*.html -exec cp {} dist \\;",
+        "copy-css": "cp -a src/assets/css/style.css dist/assets/css",
+        "copy-img": "cp -R src/assets/img dist/assets",
+        "build-js": "npx babel src/assets/js -d dist/assets/js",
+        "serve-dist": "npx serve dist",
+        "destroy-dist": "rm -rf dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.4",
+        "@babel/preset-env": "^7.3.4",
+        "babel-preset-minify": "^0.5.0",
+        "concurrently": "^4.1.0",
+        "less-watch-compiler": "^1.13.0",
+        "serve": "^10.1.2"
+    }
+}
