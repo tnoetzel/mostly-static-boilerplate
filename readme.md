@@ -12,7 +12,7 @@ If you create a lot of mostly-static websites that based on `less css` and some 
 
 This repo is my quick and dirty solution. Comments and suggestions welcome.
 
-## Mirror the Rep
+## Mirror the Repo
 
 If you just want to get started, mirror the repo as follows:
 
