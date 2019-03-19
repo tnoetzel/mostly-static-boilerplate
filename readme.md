@@ -42,7 +42,7 @@ Update your `now.json` file with your project name and domain(s).
 
 Then deploy by running: `npm run deploy-staging`. This will deploy your dist folder to a new hash under the project. Check the url that the CLI outputs and make sure everything looks good.
 
-If you're ready to deploy to production, you can use `npm run deploy-production`
+If you're ready to deploy to production, you can use `npm run deploy-prod`
 
 ## Setup
 
