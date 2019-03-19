@@ -32,6 +32,16 @@ You can run a simple local server and automatically compile `less` by running: `
 
 To build your site for production, run `npm run build`, which outputs files to the `dist` folder.
 
+## Deployment to Now
+
+By default, the deployment script uses Zeit/Now.
+
+To add a custom domain to your deployment, follow the instructions here: https://zeit.co/docs/v2/domains-and-aliases/adding-a-domain/
+
+Update your `now.json` file with your project name and domain(s).
+
+Then deploy by running: `npm run deploy`
+
 ## Setup
 
 If you want to know how to set this up yourself, here's the setup:
