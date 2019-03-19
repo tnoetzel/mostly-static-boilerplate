@@ -2,5 +2,5 @@
     "version": 2,
     "name": "project.com",
     "alias": ["project.com", "www.project.com"],
-    "routes": [{ "src": "/(.+)/$", "headers": { "location": "/$1" }, "status": 301 }, { "src": "/([^.]+)$", "dest": "/$1.html" }]
+    "routes": [{ "src": "/(.+)/$", "headers": { "location": "/$1" }, "status": 301 }, { "src": "/([^\\.]+)$", "dest": "/$1.html" }]
 }

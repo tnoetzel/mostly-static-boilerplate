@@ -34,13 +34,15 @@ To build your site for production, run `npm run build`, which outputs files to t
 
 ## Deployment to Now
 
-By default, the deployment script uses Zeit/Now.
+By default, the deployment script deploys to Zeit/Now.
 
 To add a custom domain to your deployment, follow the instructions here: https://zeit.co/docs/v2/domains-and-aliases/adding-a-domain/
 
 Update your `now.json` file with your project name and domain(s).
 
-Then deploy by running: `npm run deploy`
+Then deploy by running: `npm run deploy-staging`. This will deploy your dist folder to a new hash under the project. Check the url that the CLI outputs and make sure everything looks good.
+
+If you're ready to deploy to production, you can use `npm run deploy-production`
 
 ## Setup
 
