@@ -15,7 +15,7 @@
         "serve-dist": "npx serve dist",
         "destroy-dist": "rm -rf dist",
         "deploy-staging": "npm run build && now dist -A ../now.json",
-        "deploy-prod": "now alias",
+        "deploy-prod": "npm run build && now dist -A ../now.json --target production",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
